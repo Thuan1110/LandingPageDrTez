@@ -15,9 +15,9 @@ document.addEventListener("scroll", () => {
   }
 });
 
-function scrollToTop() {
+const scrollToTop = () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}
+};
 
 backToTopButton.addEventListener("click", scrollToTop);
