@@ -1,0 +1,403 @@
+.header-top {
+  background-color: #194787;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 12rem;
+  color: #1d2e3b;
+  background-color: #fff;
+}
+
+.navbar-brand {
+  max-width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #1d2e3b;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  width: 20rem;
+  height: 4rem;
+  border: 1px solid #1d2e3b;
+  border-radius: 5px;
+}
+
+.search-bar input::placeholder {
+  color: #676767;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.icon {
+  width: 2.4rem;
+  height: 4rem;
+  position: absolute;
+  right: 15px;
+}
+
+.banner {
+  max-width: 100%;
+  background-color: #e4effb;
+  padding: 12rem 12rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.banner h1 {
+  color: #1d2e3b;
+  margin-bottom: 1.4rem;
+  font-size: 3.2rem;
+}
+
+.banner p {
+  font-size: 1.6rem;
+  max-width: 45%;
+  margin: 0 auto 3.6rem auto;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 1.2rem 3.2rem;
+  color: #fff;
+  transition: all 0.5s;
+  font-size: 1.6rem;
+}
+.register {
+  background-color: #194787;
+}
+
+.download {
+  background-color: #cf711f;
+}
+
+.detail {
+  background-color: #1d2e3b;
+}
+
+.register:active,
+.register:hover {
+  background-color: #14396c;
+}
+
+.download:active,
+.download:hover {
+  background-color: #a65a19;
+}
+
+.detail:active,
+.detail:hover {
+  background-color: #17252f;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2.4rem;
+  font-size: 3.2rem;
+}
+
+.benefit {
+  padding: 0 12rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.container-description {
+  margin-top: 3.2rem;
+  max-width: 70%;
+  font-size: 1.6rem;
+}
+
+.image img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.container-description.reverse {
+  text-align: right;
+}
+
+.image.reverse img {
+  margin-left: 0;
+}
+
+.sub-banner {
+  padding: 3rem 12rem;
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+  background-color: #e4effb;
+  margin-bottom: 2.4rem;
+}
+
+.sub-banner .text {
+  color: #1d2e3b;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.sub-banner .text::before {
+  content: "✔ ";
+  color: #14396c;
+  font-size: 2.4rem;
+}
+.marginTop {
+  margin-top: 2.4rem;
+}
+
+.products-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4.8rem;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 80%;
+
+  margin: 0 auto 2.4rem auto;
+  padding: 3.6rem 0;
+  border-radius: 10px;
+}
+
+.product-img {
+  text-align: center;
+  width: 50%;
+}
+
+.product-img h1 {
+  color: #1d2e3b;
+}
+
+.product-img img {
+  display: block;
+  margin: 0 auto 2.4rem auto;
+  max-width: 80%;
+}
+
+.product-description {
+  width: 80%;
+  margin: 0 auto 2.4rem auto;
+  color: #194787;
+  font-size: 1.8rem;
+}
+
+.product-price {
+  font-size: 1.8rem;
+  color: #cf711f;
+  font-weight: 500;
+}
+
+.product-detail {
+  font-size: 1.8rem;
+  margin: auto 0;
+
+  padding: 0 2.4rem;
+}
+
+.button-container {
+  margin-top: 3.2rem;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.sub-banner.short {
+  width: 80%;
+  height: 24rem;
+  margin: 0 auto;
+  margin-bottom: 2.4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.short p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.container {
+  padding: 2rem 12rem;
+}
+
+.row {
+  text-align: center;
+}
+
+.col img {
+  width: 24px;
+  margin-bottom: 1.2rem;
+}
+
+.col h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.col p {
+  font-size: 1.6rem;
+}
+
+.mb {
+  margin-bottom: 2.4rem;
+}
+
+.customer-company {
+  display: flex;
+  padding: 2rem 12rem;
+  gap: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.customer-company img {
+  display: inline-block;
+  border-radius: 5px;
+  width: 200px;
+  transition: 0.5s all;
+  border: 1px solid #dedede;
+}
+
+.customer-company img:hover {
+  transform: scale(1.1);
+}
+
+.customer-person {
+  display: flex;
+  padding: 2rem 12rem;
+  justify-content: space-between;
+  gap: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.person {
+  background-color: #fff;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.person img {
+  width: 150px;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.person .name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.person .comment {
+  font-size: 1.6rem;
+  padding: 2rem;
+  text-align: justify;
+}
+
+.footer {
+  padding: 4rem 12rem;
+  background-color: #e4effb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-col p {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.footer-col.link p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-col img {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.btn-primary {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background-color: #14396c;
+  color: white;
+  cursor: pointer;
+  padding: 2px 8px;
+}
+
+.btn-primary:hover {
+  background-color: #102e56;
+}
+
+.navbar-toggler {
+  background-color: #14396c;
+}

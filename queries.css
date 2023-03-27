@@ -1,0 +1,172 @@
+@media (max-width: 1400px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+
+  .navbar-brand {
+    max-width: 80%;
+  }
+
+  .customer-company img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 43.75%;
+  }
+  .navbar-brand {
+    max-width: 70%;
+  }
+
+  .main-nav-list {
+    gap: 1.6rem;
+  }
+
+  .sub-banner {
+    gap: 15rem;
+  }
+
+  .customer-company img {
+    width: 125px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 37.5%;
+  }
+  .customer-company {
+    gap: 1.2rem;
+  }
+
+  .customer-company img {
+    width: 100px;
+  }
+
+  .footer .address {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 31.25%;
+  }
+
+  .title {
+    width: 70%;
+    margin: 0 auto 2.4rem auto;
+  }
+  .products-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.8rem;
+    width: 70%;
+
+    margin: 0 auto 2.4rem auto;
+    padding: 3.6rem 0;
+    border-radius: 10px;
+  }
+
+  .product-img {
+    text-align: center;
+    width: 50%;
+  }
+
+  .product-img h1 {
+    color: #1d2e3b;
+  }
+
+  .product-description {
+    width: 100%;
+  }
+
+  .product-detail {
+    width: 80%;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 1.2rem 1.6rem;
+    margin: 0 auto;
+  }
+
+  .benefit {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container-description {
+    max-width: 100%;
+
+    text-align: center;
+  }
+
+  .image img {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .container-description.reverse {
+    text-align: center;
+  }
+
+  .image.reverse img {
+    margin: 0 auto;
+  }
+
+  .col img {
+    width: 20px;
+  }
+
+  .customer-company {
+    gap: 1.6rem;
+  }
+  .customer-company img {
+    width: 40px;
+  }
+
+  .sub-banner {
+    gap: 10rem;
+  }
+
+  .sub-banner.short {
+    width: 100%;
+    text-align: center;
+  }
+
+  .customer-person {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .person {
+    width: 200px;
+  }
+
+  .person img {
+    width: 100px;
+  }
+
+  .footer {
+    padding: 2rem 12rem;
+    background-color: #e4effb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.6rem;
+  }
+
+  .footer-col.link {
+    width: 50%;
+  }
+}
